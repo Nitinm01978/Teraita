@@ -1,4 +1,4 @@
-<header>
+<!--<header>
   <h1>
     <img src=".\assets\l2.png" alt="TeraitaITSpace Image">
   </h1>
@@ -12,10 +12,39 @@
   </nav>
 </header>
 
+<router-outlet></router-outlet>-->
+
+<div class="homepage">
+
+  <video autoplay loop muted play-inline class="officevideo">
+    <source src="./assets/office.mp4" type="video/mp4">
+
+  </video>
+
+
+  <nav>
+    <img src="./assets/l2.png" alt="logo" class="logo">
+    <ul>
+          <li><a routerLink="/">Home</a></li>
+          <li><a routerLink="/aboutus">About Us</a></li>
+          <li><a routerLink="/services">Services</a></li>
+          <li><a routerLink="/contacts">Contacts</a></li>
+           <li><a routerLink="/info">info</a></li>
+      
+    </ul>
+  </nav>
+  <div class="content">
+    <h1>Welcome to Teraita...!</h1>
+    <a src="#">Explore</a>
+  </div>
+  
+</div>
+
 <router-outlet></router-outlet>
 
-
-
+<app-aboutus></app-aboutus>
+<app-services></app-services>
+<app-contacts></app-contacts>
 
 
 
