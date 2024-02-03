@@ -20,7 +20,13 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              //"src/app/contacts/assets"
+              {
+                "glob": "**/*",
+                  "input": "src/app/contacts/assets",
+                     "output": "/assets/"
+              }
             ],
             "styles": [
               "src/styles.css"

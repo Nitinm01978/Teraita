@@ -4,3 +4,19 @@ h1{
 nav ul li{
     margin-top: 20px;
 }
+
+/* app.component.css */
+
+/* src/app/app.component.css */
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #fff; /* Customize the background color */
+    z-index: 100; /* Ensure it is above other elements */
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box-shadow */
+  }
+  
+  /* Add other global styles if needed */
+  
+  

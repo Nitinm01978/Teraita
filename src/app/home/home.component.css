@@ -6,3 +6,15 @@ h2,p{
     background-color: blanchedalmond;
     background-attachment: scroll;
 }
+
+
+.home-container {
+    max-width: 800px;
+    margin: 20px auto;
+    position: relative;
+    /* Add a margin-top to create space for the sticky header */
+    margin-top: 80px; 
+  }
+  
+  
+  

@@ -1,1 +1,11 @@
-<p>services works!</p>
+<!-- src/app/services/services.component.html -->
+<div class="services-container">
+    <h2>Our IT Services</h2>
+    <ul>
+      <li *ngFor="let service of services">
+        <h3>{{ service.name }}</h3>
+        <p>{{ service.description }}</p>
+      </li>
+    </ul>
+  </div>
+  

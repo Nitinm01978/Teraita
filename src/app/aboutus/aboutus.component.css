@@ -1,0 +1,17 @@
+/* src/app/about-us/about-us.component.css */
+.about-us-container {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  h2 {
+    color: #2fa04c;
+    padding:25px;;
+  }
+  
+  p {
+    color: #555;
+    padding: 25px;
+    
+  }
+  
